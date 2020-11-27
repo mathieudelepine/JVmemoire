@@ -15,7 +15,43 @@ var cercle = document.querySelectorAll('.cercle');
 var startButton = document.querySelector('#start');
 var resetButton = document.querySelector('#reset');
 
+// changement couleur d'un cercle
 
+function changement(idnoir,idwhite) {
+	document.getElementById(idnoir).style.background = "#071013"
+	document.getElementById(idwhite).style.background = "#FFFFFF"
+}
+
+var lp = ["blue", "purple", "red", "orange"]
+
+document.getElementById(lp[0]).style.background = "#FFFFFF"
+setTimeout(() =>{
+	changement(lp[0],lp[1])
+	setTimeout(() =>{
+		changement(lp[1],lp[2])
+		setTimeout(() =>{
+			changement(lp[2],lp[3])
+			setTimeout(() =>{
+				document.getElementById(lp[3]).style.background = "#071013"
+			},1000)
+		},1000)
+	},1000)
+},1000)
+
+//saisie de la séquence=======================================
+// document.getElementById("blue").addEventListener("click", alert("coucou"))
+var seqUser = array(4);
+var nbfrappe = 0;
+function saisie(numero) {
+	seqUser[nbfrappe] = numero;
+	nbfrappe++;
+	console.log("seqUser" + seqUser)
+}
+
+
+//COMPARAISON
+var seqOrdi = [1,2,3,4];
+var 
 // Mon constructeur(moule à cercle qui leur done un etat entre 1 et 4)
 class circle {
 	constructor(etat) {
@@ -95,3 +131,6 @@ window.addEventListener(
     }
 )
 
+function changeBackground(color) {
+	document.body.style.background = color;
+ }

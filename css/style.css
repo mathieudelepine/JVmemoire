@@ -41,19 +41,19 @@ html,
   background-color: white;
 }
 
-.blue {
+#blue {
   border: 4px solid #1A8FE3; 
 }
 
-.purple {
+#purple {
   border: 4px solid #6610F2; 
 }
 
-.red {
+#red {
   border: 4px solid #D11149; 
 }
 
-.orange {
+#orange {
   border: 4px solid #F17105; 
 }
 
