@@ -38,15 +38,15 @@ setTimeout(() =>{
 	},1000)
 },1000)
 
-//saisie de la séquence=======================================
-// document.getElementById("blue").addEventListener("click", alert("coucou"))
-var seqUser = array(4);
-var nbfrappe = 0;
-function saisie(numero) {
-	seqUser[nbfrappe] = numero;
-	nbfrappe++;
-	console.log("seqUser" + seqUser)
-}
+// //saisie de la séquence=======================================
+// // document.getElementById("blue").addEventListener("click", alert("coucou"))
+// var seqUser = array[4];
+// var nbfrappe = 0;
+// function saisie(numero) {
+// 	seqUser[nbfrappe] = numero;
+// 	nbfrappe++;
+// 	console.log("seqUser" + seqUser)
+// }
 
 
 //COMPARAISON
