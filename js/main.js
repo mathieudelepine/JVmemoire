@@ -51,7 +51,6 @@ function saisie(numero) {
 
 //COMPARAISON
 var seqOrdi = [1,2,3,4];
-var 
 // Mon constructeur(moule à cercle qui leur done un etat entre 1 et 4)
 class circle {
 	constructor(etat) {
